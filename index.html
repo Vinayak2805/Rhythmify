@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythmify</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="util/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="util/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="util/favicon/favicon-16x16.png">
+	<link rel="manifest" href="util/favicon/site.webmanifest">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="util/logo.png" alt="Rhythmify">
+                <span>Rhythmify</span>
+            </li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <div class="songItem">
+                <img src="util/covers/1.jpg" alt="1">
+                <span class="songName">Warriyo - Mortals [NCS Release]</span>
+                <span class="songlistplay"><span class="timeStamp">3:50</span><img class="songItemPlay" id="0" src="util/icons/play.svg"></span>
+            </div>
+            <div class="songItem">
+                <img src="util/covers/2.jpg" alt="1">
+                <span class="songName">Cielo - Huma-Huma</span>
+                <span class="songlistplay"><span class="timeStamp">2:33</span><img class="songItemPlay" id="1" src="util/icons/play.svg"></span>
+            </div>
+            <div class="songItem">
+                <img src="util/covers/3.jpg" alt="1">
+                <span class="songName">DEAF KEV - Invincible [NCS Release]-320k</span>
+                <span class="songlistplay"><span class="timeStamp">4:33</span><img class="songItemPlay" id="2" src="util/icons/play.svg"></span>
+            </div>
+            <div class="songItem">
+                <img src="util/covers/4.jpg" alt="1">
+                <span class="songName">Different Heaven & EH!DE - My Heart [NCS Release]</span>
+                <span class="songlistplay"><span class="timeStamp">4:27</span><img class="songItemPlay" id="3" src="util/icons/play.svg"></span>
+            </div>
+            <div class="songItem">
+                <img src="util/covers/5.jpg" alt="1">
+                <span class="songName">Janji - Heroes tonight</span>
+                <span class="songlistplay"><span class="timeStamp">3:28</span><img class="songItemPlay" id="4" src="util/icons/play.svg"></span>
+            </div>
+            <div class="songItem">
+                <img src="util/covers/6.jpg" alt="1">
+                <span class="songName">GTA San Andreas - theme</span>
+                <span class="songlistplay"><span class="timeStamp">0:29</span><img class="songItemPlay" id="5" src="util/icons/play.svg"></span>
+            </div>
+            <div class="songItem">
+                <img src="util/covers/7.jpg" alt="1">
+                <span class="songName">Led Zeppelin - Stairway to Heaven</span>
+                <span class="songlistplay"><span class="timeStamp">8:00</span><img class="songItemPlay" id="6" src="util/icons/play.svg"></span>
+            </div>
+            <div class="songItem">
+                <img src="util/covers/8.jpg" alt="1">
+                <span class="songName">Shehenshah - Andheri Raaton Me</span>
+                <span class="songlistplay"><span class="timeStamp">5:20</span><img class="songItemPlay" id="7" src="util/icons/play.svg"></span>
+            </div>
+            <div class="songItem">
+                <img src="util/covers/9.jpg" alt="1">
+                <span class="songName">Oliver Tree - Life Goes On</span>
+                <span class="songlistplay"><span class="timeStamp">3:26</span><img class="songItemPlay" id="8" src="util/icons/play.svg"></span>
+            </div>
+            <div class="songItem">
+                <img src="util/covers/10.jpg" alt="1">
+                <span class="songName">Linkin Park - What I've done</span>
+                <span class="songlistplay"><span class="timeStamp">3:29</span><img class="songItemPlay" id="9" src="util/icons/play.svg"></span>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+        
+    </div>
+
+    <div class="bottom">
+        <input type="range" id="myProgressBar" min="0" max="100" value="0"> 
+        <div class="icons">
+            <!-- icons -->
+            <img src="/util/icons/previous.svg" class="icon" id="previous">
+            <img src="/util/icons/play.svg" class="icon" id="masterPlay">
+            <img src="/util/icons/next.svg" class="icon" id="next">
+
+        </div>
+        <div class="songInfo">
+            <img src="util/songPlay.gif" width="45px" height="20vh" id="gif">
+            <span id="masterSongName">Songname</span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
